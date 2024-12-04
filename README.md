@@ -18,6 +18,7 @@ Functionalities for the future:
 </ul>
 
 Project started at the 4th of December, 2024.
+Currently, app is planned to be released with two language packs - English and Polish. If you want to add yours, contact me.
 
 <b>Author</b>: przemekkojs - check out other projects!<br/>
 <b>License</b>: GNU v3 license
