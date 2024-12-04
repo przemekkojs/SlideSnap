@@ -28,7 +28,7 @@
                     MaximumWidthRequest="75"
                     Clicked="SetPolishLanguage"
                 />
-        </HorizontalStackLayout>
+        </HorizontalStackLayout>        
 
         <ScrollView>
             <VerticalStackLayout
@@ -47,6 +47,18 @@
                         SemanticProperties.HeadingLevel="Level2"
                         />
                 </VerticalStackLayout>
+
+                <Grid ColumnDefinitions="*,*,*" RowDefinitions="*,30">
+                    <toolkit:CameraView 
+                        Grid.ColumnSpan="3" 
+                        Grid.Row="0"
+                        x:Name="CameraPreview"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Start"
+                        WidthRequest="512"
+                        HeightRequest="288"
+                        BackgroundColor="Black"/>
+                </Grid>
 
                 <VerticalStackLayout>
                     <Label
